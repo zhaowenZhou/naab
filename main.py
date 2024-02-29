@@ -25,7 +25,7 @@ def main():
             else:
                 st.write("Upload first baby!")
         if st.button("利用AI助手获取大纲"):
-            st.image('/home/zhouzhaowen/rag/doc_process/data/personal/付款码.JPG')
+            st.image('D:\naab\data\QRcode.jpg')
             st.write("开发中....，给点奖励作者开发更快哦")
             
 if __name__ == "__main__":
