@@ -23,7 +23,7 @@ def main():
             else:
                 st.write("Upload first baby!")
         if st.button("利用AI助手获取大纲"):
-            qr_image = Image.open('D:\naab\data\QRcode.jpg')
+            qr_image = Image.open('D:/naab/data/QRcode.jpg')
             st.image(qr_image)
             st.write("开发中....，给点奖励作者开发更快哦")
             
