@@ -13,7 +13,7 @@ def reformat(file_path):
     para = document.add_paragraph().add_run( 
         text)
     document.styles['Normal'].font.name = u'宋体'
-    document.styles['Normal']._element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
+    document.styles['Normal'].element.rPr.rFonts.set(qn('w:eastAsia'), u'宋体')
     document.styles['Normal'].font.size = Pt(10.5)
     document.styles['Normal'].font.color.rgb = RGBColor(0,0,0)
     return document
