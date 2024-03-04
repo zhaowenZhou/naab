@@ -5,7 +5,7 @@ from docx.shared import Pt
 from scripts import reformat
 
 def main():
-    st.title('文档小助手')
+    st.title('NAAB-Natural language processing Ai Assistant for Bertha')
     tab1, tab2 = st.tabs(["格式转写", "按需添加"])
     with tab1:
         st.header("将字幕格式整理为文档格式")
